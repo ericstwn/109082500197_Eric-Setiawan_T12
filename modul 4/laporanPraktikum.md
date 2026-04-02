@@ -1,4 +1,4 @@
-# <h1 align="center">Laporan Praktikum Modul 1 - ... </h1>
+# <h1 align="center">Laporan Praktikum Modul 4 - ... </h1>
 <p align="center">[Eric Setiawan] - [109082500197]</p>
 
 ## Unguided 
@@ -11,25 +11,29 @@ package main
 
 import "fmt"
 
-func main() {
-	var (
-		satu, dua, tiga string
-		temp            string
-	)
-	fmt.Print("Masukan input string: ")
-	fmt.Scanln(&satu)
-	fmt.Print("Masukan input string: ")
-	fmt.Scanln(&dua)
-	fmt.Print("Masukan input string: ")
-	fmt.Scanln(&tiga)
-	fmt.Println("Output awal = " + satu + " " + dua + " " + tiga)
-	temp = satu
-	satu = dua
-	dua = tiga
-	tiga = temp
-	fmt.Println("Output akhir = " + satu + " " + dua + " " + tiga)
+func factorial(n int) int {
+	hasil := 1
+	for i := 1; i <= n; i++ {
+		hasil *= i
+	}
+	return hasil
 }
 
+func permutation(n, r int) int {
+	return factorial(n) / factorial(n-r)
+}
+
+func combination(n, r int) int {
+	return factorial(n) / (factorial(r) * factorial(n-r))
+}
+
+func main() {
+	var a, b, c, d int
+	fmt.Scan(&a, &b, &c, &d)
+
+	fmt.Println(permutation(a, c), combination(a, c))
+	fmt.Println(permutation(b, d), combination(b, d))
+}
 ```
 ### Output Unguided :
 
@@ -47,20 +51,48 @@ package main
 
 import "fmt"
 
-func main() {
-	var warna1, warna2, warna3, warna4 string
-	var i int
-	Berhasil := true
-	for i = 1; i <= 5; i++ {
-		fmt.Printf("Percobaan %d:", i)
-		fmt.Scanln(&warna1, &warna2, &warna3, &warna4)
-		if warna1 != "merah" || warna2 != "kuning" || warna3 != "hijau" || warna4 != "ungu" {
-			Berhasil = false
+func hitungSkor(soal *int, skor *int, waktu []int) {
+	*soal = 0
+	*skor = 0
+
+	for i := 0; i < 8; i++ {
+		if waktu[i] <= 300 {
+			*soal++
+			*skor += waktu[i]
 		}
 	}
-	fmt.Println("Berhasil:", Berhasil)
 }
 
+func main() {
+	var nama string
+
+	pemenang := ""
+	maxSoal := -1
+	minWaktu := 1<<31 - 1
+
+	for {
+		fmt.Scan(&nama)
+
+		if nama == "Selesai" {
+			break
+		}
+
+		waktu := make([]int, 8)
+		for i := 0; i < 8; i++ {
+			fmt.Scan(&waktu[i])
+		}
+
+		var soal, skor int
+		hitungSkor(&soal, &skor, waktu)
+
+		if soal > maxSoal || (soal == maxSoal && skor < minWaktu) {
+			pemenang = nama
+			maxSoal = soal
+			minWaktu = skor
+		}
+	}
+	fmt.Println(pemenang, maxSoal, minWaktu)
+}
 ```
 ### Output Unguided :
 
@@ -81,32 +113,28 @@ package main
 
 import "fmt"
 
-func main() {
-	var beratgram int
-	fmt.Print("berat parsel: ")
-	fmt.Scanln(&beratgram)
-
-	kg := beratgram / 1000
-	sisaGram := beratgram % 1000
-
-	biayaKg := kg * 10000
-
-	biayatambahan := 0
-	if kg < 10 {
-		if sisaGram >= 500 {
-			biayatambahan = sisaGram * 5
-		} else {
-			biayatambahan = sisaGram * 15
+func cetakDeret(n int) {
+	for {
+		fmt.Print(n)
+		if n == 1 {
+			break
 		}
-	} else {
-		biayatambahan = 0
+
+		fmt.Print(" ")
+		if n%2 == 0 {
+			n = n / 2
+		} else {
+			n = 3*n + 1
+		}
 	}
-	total := biayaKg + biayatambahan
-	fmt.Printf("Detail berat: %d kg + %d gr\n", kg, sisaGram)
-	fmt.Printf("Detail biaya: Rp. %d + Rp. %d\n", biayaKg, biayatambahan)
-	fmt.Printf("total biaya: Rp. %d\n", total)
 }
 
+func main() {
+	var n int
+	fmt.Scan(&n)
+
+	cetakDeret(n)
+}
 ```
 ### Output Unguided :
 
