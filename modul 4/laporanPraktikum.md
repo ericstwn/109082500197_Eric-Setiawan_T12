@@ -38,10 +38,8 @@ func main() {
 ### Output Unguided :
 
 ##### Output 
-![Screenshot Output Unguided 1_1](https://github.com/ericstwn/109082500197_Eric-Setiawan/blob/main/modul1/output/output-soal1.png)
-[Penjelasan: Jadi program ini berguna untuk merubah posisi dari variabelnya dimana temp
-menyimpan nomor satu,satu menyimpan variabel nomor dua,dua menyimpan variabel
-nomor tiga,dan tiga menyimpan variabel punya temp dimana tempnya sudah diganti dengan variabel nomor satu.]
+![Screenshot Output Unguided 1_1](https://github.com/ericstwn/109082500197_Eric-Setiawan_T4/blob/main/modul%204/output/output-soal1.png)
+[Penjelasan: Jadi program ini digunakan untuk menghitung permutasi dan kombinasi dari dua pasangan bilangan. Program menerima input a, b, c, d, lalu menghitung P(a,c) dan C(a,c) serta P(b,d) dan C(b,d) menggunakan rumus faktorial. Hasilnya ditampilkan dalam dua baris sesuai pasangan bilangan.]
 
 ### 2. [Soal]
 #### soal2.go
@@ -97,13 +95,8 @@ func main() {
 ### Output Unguided :
 
 ##### Output 
-![Screenshot Output Unguided 1_2](https://github.com/ericstwn/109082500197_Eric-Setiawan/blob/main/modul1/output/output-soal2.png)
-[Penjelasan: Jadi Program ini memakai perulangan untuk input empat warna sebanyak lima kali,
-lalu membandingkan input tersebut dengan urutan standar atau true "merah", "kuning",
-"hijau", dan "ungu". Variabel berhasil itu sebagai true, namun akan diubah
-menjadi false jika ditemukan satu saja percobaan yang urutan warnanya tidak sesuai, sehingga
-program akan menghasilkan nilai true jika lima percobaan memiliki
-urutan yang tepat.]
+![Screenshot Output Unguided 1_2](https://github.com/ericstwn/109082500197_Eric-Setiawan_T4/blob/main/modul%204/output/output-soal2.png)
+[Penjelasan: Jadi program ini menentukan pemenang lomba berdasarkan jumlah soal yang diselesaikan dan total waktu. Setiap peserta memiliki 8 waktu pengerjaan, di mana nilai 301 dianggap tidak selesai. Program menghitung jumlah soal selesai dan total waktu, lalu memilih pemenang dengan soal terbanyak, atau waktu tercepat jika jumlahnya sama.]
 
 ### 3. [Soal]
 #### soal3.go
@@ -139,14 +132,8 @@ func main() {
 ### Output Unguided :
 
 ##### Output 
-![Screenshot Output Unguided 1_2](https://github.com/ericstwn/109082500197_Eric-Setiawan/blob/main/modul1/output/output-soal3.png)
-[Penjelasan: Jadi program ini menghitung biaya pengiriman parsel dengan membagi total berat gram
-menjadi jumlah kilogram dan sisa gram, di mana biaya dasar ditetapkan sebesar Rp10.000
-per kilogram. Program kemudian menerapkan aturan khusus: jika berat total kurang dari 10
-kg, sisa gram akan dikenakan biaya Rp5 per gram jika jumlahnya 500 gram atau lebih, dan
-Rp15 per gram jika kurang dari 500 gram; namun, jika berat total sudah melebihi 10 kg,
-maka sisa gram tersebut digratiskan, sehingga total biaya hanya dihitung berdasarkan berat
-kilogramnya saja.]
+![Screenshot Output Unguided 1_2](https://github.com/ericstwn/109082500197_Eric-Setiawan_T4/blob/main/modul%204/output/output-soal3.png)
+[Penjelasan: Jadi program ini menghasilkan deret bilangan dari suatu angka hingga mencapai 1. Jika bilangan genap dibagi 2, jika ganjil dikali 3 lalu ditambah 1. Proses diulang sampai 1 dan semua nilai dicetak dalam satu baris.]
 
 
 
