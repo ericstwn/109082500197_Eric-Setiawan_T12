@@ -33,7 +33,7 @@ func fibo(n int) int {
 ### Output Unguided :
 
 ##### Output 
-![Screenshot Output Unguided 1_1]()
+![Screenshot Output Unguided 1_1](https://github.com/ericstwn/109082500197_Eric-Setiawan_T5/blob/main/modul%205/output/output-soal1.png)
 [Penjelasan: Jadi program ini digunakan untuk mencetak deret bilangan Fibonacci sebanyak n suku menggunakan rekursi. Program menerima input n, lalu memanggil fungsi fibo(i) untuk setiap indeks dari 0 hingga n-1. Fungsi fibo bekerja secara rekursif: jika n = 0 mengembalikan 0, jika n = 1 mengembalikan 1, dan untuk nilai lainnya mengembalikan hasil penjumlahan fibo(n-1) + fibo(n-2).]
 
 ### 2. [Soal]
@@ -65,7 +65,7 @@ func bintang(n int) {
 ### Output Unguided :
 
 ##### Output 
-![Screenshot Output Unguided 1_2]()
+![Screenshot Output Unguided 1_2](https://github.com/ericstwn/109082500197_Eric-Setiawan_T5/blob/main/modul%205/output/output-soal2.png)
 [Penjelasan: Jadi program ini digunakan untuk mencetak pola segitiga bintang secara rekursif. Program menerima input n, lalu fungsi bintang dipanggil secara rekursif hingga n = 0. Karena pemanggilan rekursif dilakukan sebelum mencetak bintang, baris pertama akan mencetak 1 bintang, baris kedua 2 bintang, dan seterusnya hingga baris ke-n yang mencetak n bintang, membentuk pola segitiga yang semakin besar.]
 
 ### 3. [Soal]
@@ -94,7 +94,7 @@ func faktor(n int, i int) {
 ### Output Unguided :
 
 ##### Output 
-![Screenshot Output Unguided 1_2]()
+![Screenshot Output Unguided 1_2](https://github.com/ericstwn/109082500197_Eric-Setiawan_T5/blob/main/modul%205/output/output-soal3.png)
 [Penjelasan: Jadi program ini digunakan untuk mencari dan mencetak semua faktor dari bilangan n menggunakan rekursi. Program menerima input n, lalu fungsi faktor dipanggil mulai dari i = 1. Setiap kali i habis membagi n (n % i == 0), nilai i dicetak sebagai faktor. Proses berlanjut secara rekursif dengan menambah i sebesar 1 hingga i melebihi n.]
 
 ### 4. [Soal]
@@ -124,7 +124,7 @@ func test(n int) {
 ### Output Unguided :
 
 ##### Output 
-![Screenshot Output Unguided 1_2]()
+![Screenshot Output Unguided 1_2](https://github.com/ericstwn/109082500197_Eric-Setiawan_T5/blob/main/modul%205/output/output-soal4.png)
 [Penjelasan: Jadi program ini digunakan untuk mencetak angka secara maju lalu mundur menggunakan rekursi. Program menerima input n, lalu fungsi test mencetak n sebelum rekursi dan kembali mencetak n setelah rekursi selesai. Hasilnya adalah barisan angka dari n turun ke 1, kemudian naik kembali dari 1 ke n, misalnya jika n = 3 maka outputnya adalah 3 2 1 1 2 3.]
 
 ### 5. [Soal]
@@ -152,7 +152,7 @@ func bilangan(i int, n int) {
 ### Output Unguided :
 
 ##### Output 
-![Screenshot Output Unguided 1_2]()
+![Screenshot Output Unguided 1_2](https://github.com/ericstwn/109082500197_Eric-Setiawan_T5/blob/main/modul%205/output/output-soal5.png)
 [Penjelasan: Jadi program ini digunakan untuk mencetak bilangan ganjil dari 1 hingga n menggunakan rekursi. Program menerima input n, lalu fungsi bilangan dipanggil mulai dari i = 1 dan setiap rekursi menambahkan i sebesar 2. Dengan demikian hanya bilangan ganjil (1, 3, 5, 7, ...) yang akan dicetak selama i masih kurang dari atau sama dengan n.]
 
 ### 6. [Soal]
@@ -181,8 +181,8 @@ func pangkat(x int, y int) int {
 ### Output Unguided :
 
 ##### Output 
-![Screenshot Output Unguided 1_2]()
-[Penjelasan: Jadi program ini digunakan untuk menghitung hasil perpangkatan x pangkat y menggunakan rekursi. Program menerima input x dan y, lalu fungsi pangkat bekerja secara rekursif: jika y = 0 mengembalikan 1 (karena x^0 = 1), dan selain itu mengembalikan x dikali pangkat(x, y-1). Hasil akhirnya dicetak menggunakan fmt.Println. Catatan: fungsi pangkat dipanggil dua kali di main, yang pertama hasilnya tidak digunakan.]
+![Screenshot Output Unguided 1_2](https://github.com/ericstwn/109082500197_Eric-Setiawan_T5/blob/main/modul%205/output/output-soal6.png)
+[Penjelasan: Jadi program ini digunakan untuk menghitung hasil perpangkatan x pangkat y menggunakan rekursi. Program menerima input x dan y, lalu fungsi pangkat bekerja secara rekursif: jika y = 0 mengembalikan 1 (karena x^0 = 1), dan selain itu mengembalikan x dikali pangkat(x, y-1).]
 
 
 
