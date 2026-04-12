@@ -125,7 +125,7 @@ func test(n int) {
 
 ##### Output 
 ![Screenshot Output Unguided 1_2](https://github.com/ericstwn/109082500197_Eric-Setiawan_T5/blob/main/modul%205/output/output-soal4.png)
-[Penjelasan: Jadi program ini digunakan untuk mencetak angka secara maju lalu mundur menggunakan rekursi. Program menerima input n, lalu fungsi test mencetak n sebelum rekursi dan kembali mencetak n setelah rekursi selesai. Hasilnya adalah barisan angka dari n turun ke 1, kemudian naik kembali dari 1 ke n, misalnya jika n = 3 maka outputnya adalah 3 2 1 1 2 3.]
+[Penjelasan: Jadi program ini digunakan untuk mencetak angka secara maju lalu mundur menggunakan rekursi. Program menerima input n, lalu fungsi test mencetak n sebelum rekursi dan kembali mencetak n setelah rekursi selesai. Hasilnya adalah barisan angka dari n turun ke 1, kemudian naik kembali dari 1 ke n, misalnya jika n = 5 maka outputnya adalah 5 4 3 2 1 1 2 3 4 5.]
 
 ### 5. [Soal]
 #### soal3.go
