@@ -52,7 +52,7 @@ func main() {
 ### Output Unguided :
 
 ##### Output 
-![Screenshot Output Unguided 1_1](https://github.com/ericstwn/109082500197_Eric-Setiawan_T5/blob/main/modul%205/output/output-soal1.png)
+![Screenshot Output Unguided 1_1](https://github.com/ericstwn/109082500197_Eric-Setiawan_T9/blob/main/modul%209/output/output-soal1.png)
 [Penjelasan: Jadi program ini buat ngecek apakah sebuah titik berada di dalam lingkaran atau tidak, mirip program sebelumnya tapi kali ini pakai struct yang lebih terstruktur. Ada struct Titik buat nyimpen koordinat x dan y, dan struct Lingkaran yang isinya titik pusat dan jari-jari. Fungsi dalamLingkaran ngecek posisi titik dengan ngitung jarak kuadrat ke pusat lingkaran, kalau hasilnya kurang dari atau sama dengan r² berarti titiknya ada di dalam. Program ngecek dua lingkaran sekaligus dan nampilin hasilnya, titik bisa ada di dalam keduanya, salah satu, atau di luar keduanya.]
 
 ### 2. [Soal]
@@ -77,7 +77,7 @@ func main() {
 ### Output Unguided :
 
 ##### Output 
-![Screenshot Output Unguided 1_2](https://github.com/ericstwn/109082500197_Eric-Setiawan_T5/blob/main/modul%205/output/output-soal2.png)
+![Screenshot Output Unguided 1_2](https://github.com/ericstwn/109082500197_Eric-Setiawan_T9/blob/main/modul%209/output/output-soal2%20a.png)
 [Penjelasan: Program ini buat nyimpen dan nampilin sekumpulan angka menggunakan array. Array angka punya 5 slot yang diisi satu-satu mulai dari indeks 0 sampai 4 dengan nilai 10, 20, 30, 40, dan 50. Setelah semua slot terisi, langsung ditampilin semuanya sekaligus.]
 
 ### 2. [Soal]
@@ -109,7 +109,7 @@ func main() {
 ### Output Unguided :
 
 ##### Output 
-![Screenshot Output Unguided 1_2](https://github.com/ericstwn/109082500197_Eric-Setiawan_T5/blob/main/modul%205/output/output-soal2.png)
+![Screenshot Output Unguided 1_2](https://github.com/ericstwn/109082500197_Eric-Setiawan_T9/blob/main/modul%209/output/output-soal2%20b.png)
 [Penjelasan: Jadi program ini buat nampilin angka-angka yang ada di posisi indeks ganjil dari array. Program minta input n sebagai jumlah angka, lalu minta input angkanya satu-satu dan disimpan ke array. Setelah semua terisi, program ngecek setiap indeks, kalau indeksnya ganjil (1, 3, 5, ...) maka angka di posisi itu ditampilin.]
 
 ### 2. [Soal]
@@ -141,7 +141,7 @@ func main() {
 ### Output Unguided :
 
 ##### Output 
-![Screenshot Output Unguided 1_2](https://github.com/ericstwn/109082500197_Eric-Setiawan_T5/blob/main/modul%205/output/output-soal2.png)
+![Screenshot Output Unguided 1_2](https://github.com/ericstwn/109082500197_Eric-Setiawan_T9/blob/main/modul%209/output/output-soal2%20c.png)
 [Penjelasan: Jadi program ini buat nampilin angka-angka yang ada di posisi indeks genap dari array. Program minta input n sebagai jumlah angka, lalu minta input angkanya satu-satu dan disimpan ke array. Setelah semua terisi, program ngecek setiap indeks, kalau indeksnya genap (0, 2, 4, ...) maka angka di posisi itu ditampilin.]
 
 ### 2. [Soal]
@@ -182,7 +182,7 @@ func main() {
 ### Output Unguided :
 
 ##### Output 
-![Screenshot Output Unguided 1_2](https://github.com/ericstwn/109082500197_Eric-Setiawan_T5/blob/main/modul%205/output/output-soal2.png)
+![Screenshot Output Unguided 1_2](https://github.com/ericstwn/109082500197_Eric-Setiawan_T9/blob/main/modul%209/output/output-soal2%20d.png)
 [Penjelasan: Jadi Program ini buat nampilin angka-angka yang ada di posisi indeks kelipatan x dari array. Program minta input n sebagai jumlah angka, lalu minta input angkanya satu-satu dan disimpan ke array. Setelah itu minta input nilai x, kalau x bernilai 0 program langsung berhenti biar tidak error pembagian. Kalau x valid, program ngecek setiap indeks dan nampilin angka yang indeksnya merupakan kelipatan x (0, x, 2x, 3x, ...).]
 
 ### 2. [Soal]
@@ -221,7 +221,7 @@ func main() {
 ### Output Unguided :
 
 ##### Output 
-![Screenshot Output Unguided 1_2](https://github.com/ericstwn/109082500197_Eric-Setiawan_T5/blob/main/modul%205/output/output-soal2.png)
+![Screenshot Output Unguided 1_2](https://github.com/ericstwn/109082500197_Eric-Setiawan_T9/blob/main/modul%209/output/output-soal2%20e.png)
 [Penjelasan: Jadi  Program ini buat menghapus sebuah elemen dari array berdasarkan indeks yang dipilih. Program minta input n sebagai jumlah angka, lalu minta input angkanya satu-satu dan disimpan ke array. Setelah itu minta input indeks yang mau dihapus, lalu semua elemen setelah indeks tersebut digeser satu posisi ke kiri untuk menutup celah bekas elemen yang dihapus. Jumlah elemennya dikurangi satu, lalu array yang sudah diperbarui ditampilin.]
 
 ### 2. [Soal]
@@ -256,7 +256,7 @@ func main() {
 ### Output Unguided :
 
 ##### Output 
-![Screenshot Output Unguided 1_2](https://github.com/ericstwn/109082500197_Eric-Setiawan_T5/blob/main/modul%205/output/output-soal2.png)
+![Screenshot Output Unguided 1_2](https://github.com/ericstwn/109082500197_Eric-Setiawan_T9/blob/main/modul%209/output/output-soal2%20f.png)
 [Penjelasan: Jadi  Program ini buat ngitung rata-rata dari sekumpulan angka yang disimpan di array. Program minta input n sebagai jumlah angka, lalu minta input angkanya satu-satu dan disimpan ke array. Setelah semua terisi, semua angka dijumlahin ke variabel total, lalu dibagi n buat dapet nilai rata-ratanya.]
 
 ### 2. [Soal]
@@ -311,7 +311,7 @@ func main() {
 ### Output Unguided :
 
 ##### Output 
-![Screenshot Output Unguided 1_2](https://github.com/ericstwn/109082500197_Eric-Setiawan_T5/blob/main/modul%205/output/output-soal2.png)
+![Screenshot Output Unguided 1_2](https://github.com/ericstwn/109082500197_Eric-Setiawan_T9/blob/main/modul%209/output/output-soal2%20g.png)
 [Penjelasan: Jadi Program ini buat ngitung rata-rata dan standar deviasi dari sekumpulan angka. Program minta input n sebagai jumlah angka, lalu minta input angkanya satu-satu dan disimpan ke array. Pertama dihitung rata-ratanya dulu dengan cara menjumlahkan semua angka lalu dibagi n. Setelah itu dihitung standar deviasinya dengan cara ngitung selisih setiap angka dengan rata-rata, dikuadratkan, dijumlahin semua, dibagi n, lalu diakarkan pakai fungsi sqrt sendiri. Standar deviasi ini buat ngukur seberapa jauh angka-angka tersebut menyebar dari rata-ratanya.]
 
 ### 2. [Soal]
@@ -348,7 +348,7 @@ func main() {
 ### Output Unguided :
 
 ##### Output 
-![Screenshot Output Unguided 1_2](https://github.com/ericstwn/109082500197_Eric-Setiawan_T5/blob/main/modul%205/output/output-soal2.png)
+![Screenshot Output Unguided 1_2](https://github.com/ericstwn/109082500197_Eric-Setiawan_T9/blob/main/modul%209/output/output-soal2%20h.png)
 [Penjelasan: Jadi Program ini buat ngitung berapa kali sebuah angka muncul di dalam array. Program minta input n sebagai jumlah angka, lalu minta input angkanya satu-satu dan disimpan ke array. Setelah itu minta input angka yang mau dicari, lalu program ngecek satu-satu setiap elemen array, kalau ketemu angka yang sama maka frekuensi ditambah 1. Hasilnya ditampilin berapa kali angka tersebut muncul.]
 
 
@@ -404,7 +404,7 @@ func main() {
 ### Output Unguided :
 
 ##### Output 
-![Screenshot Output Unguided 1_2](https://github.com/ericstwn/109082500197_Eric-Setiawan_T5/blob/main/modul%205/output/output-soal3.png)
+![Screenshot Output Unguided 1_2](https://github.com/ericstwn/109082500197_Eric-Setiawan_T9/blob/main/modul%209/output/output-soal3.png)
 [Penjelasan: Jadi Program ini buat nyimpen dan nampilin hasil pertandingan antara dua klub secara berulang. Program minta input nama klub A dan klub B, lalu terus minta input skor tiap pertandingan sampai salah satu skor negatif sebagai tanda berhenti. Setiap pertandingan dicek siapa yang menang, kalau skor A lebih besar maka klub A menang, kalau skor B lebih besar maka klub B menang, kalau sama maka hasilnya Draw, dan hasilnya disimpan ke array pemenang. Setelah selesai, semua hasil pertandingan ditampilin satu-satu.]
 
 ### 4. [Soal]
@@ -474,7 +474,7 @@ func main() {
 ### Output Unguided :
 
 ##### Output 
-![Screenshot Output Unguided 1_2](https://github.com/ericstwn/109082500197_Eric-Setiawan_T5/blob/main/modul%205/output/output-soal4.png)
+![Screenshot Output Unguided 1_2](https://github.com/ericstwn/109082500197_Eric-Setiawan_T9/blob/main/modul%209/output/output-soal4.png)
 [Penjelasan: Program ini buat ngecek apakah sebuah teks itu palindrom atau tidak, sekaligus nampilin teks yang sudah dibalik. Program punya empat fungsi, isiArray buat nyimpen teks ke array karakter satu-satu, cetakArray buat nampilin isi arraynya, palindrome buat ngecek apakah huruf pertama sama dengan huruf terakhir dan seterusnya sampai tengah, dan balikanArray buat nuker posisi huruf dari depan dan belakang hingga seluruh teks jadi terbalik. Jadi program ini nampilin teks asli, ngasih tau palindrom atau bukan, lalu nampilin teks yang sudah dibalik sekalian.]
 
 
