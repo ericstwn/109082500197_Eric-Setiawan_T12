@@ -40,7 +40,7 @@ func main() {
 ### Output Unguided :
 
 ##### Output 
-![Screenshot Output Unguided 1_1](https://github.com/ericstwn/109082500197_Eric-Setiawan_T9/blob/main/modul%209/output/output-soal1.png)
+![Screenshot Output Unguided 1_1](https://github.com/ericstwn/109082500197_Eric-Setiawan_T10/blob/main/modul%2010/output/output-soal1.png)
 [Penjelasan: Jadi program ini untuk mencari nilai berat terkecil dan terbesar dari sekumpulan data berat. Program minta input n sebagai jumlah data, lalu minta input beratnya satu-satu dan disimpan ke array. Nilai min dan max awalnya diset ke berat[0] sebagai pembanding pertama, lalu program ngecek satu-satu elemen berikutnya, kalau ada yang lebih kecil dari min maka min diperbarui, kalau ada yang lebih besar dari max maka max diperbarui. Hasilnya ditampilin nilai terkecil dan terbesar sekaligus.]
 
 ### 2. [Soal]
@@ -102,7 +102,7 @@ func main() {
 ### Output Unguided :
 
 ##### Output 
-![Screenshot Output Unguided 1_2](https://github.com/ericstwn/109082500197_Eric-Setiawan_T9/blob/main/modul%209/output/output-soal2%20b.png)
+![Screenshot Output Unguided 1_2](https://github.com/ericstwn/109082500197_Eric-Setiawan_T10/blob/main/modul%2010/output/output-soal2.png)
 [Penjelasan: Jadi program ini buat ngitung total berat barang per wadah dan rata-rata berat tiap wadah. Program minta input x sebagai jumlah barang dan y sebagai kapasitas tiap wadah. Semua berat barang disimpan ke array, lalu barang-barang tersebut dibagi ke dalam wadah masing-masing sebanyak y barang per wadah. Kalau sisa barangnya tidak cukup buat satu wadah penuh, tetap dibuatkan satu wadah tambahan. Total berat tiap wadah dihitung dan disimpan, lalu semua total wadah dijumlahin dan dibagi jumlah wadah buat dapet rata-ratanya. Hasilnya ditampilin total berat tiap wadah dalam satu baris lalu rata-ratanya di baris berikutnya.]
 
 ### 3. [Soal]
@@ -164,7 +164,7 @@ func main() {
 ### Output Unguided :
 
 ##### Output 
-![Screenshot Output Unguided 1_2](https://github.com/ericstwn/109082500197_Eric-Setiawan_T9/blob/main/modul%209/output/output-soal2%20c.png)
+![Screenshot Output Unguided 1_2](https://github.com/ericstwn/109082500197_Eric-Setiawan_T10/blob/main/modul%2010/output/output-soal3.png)
 [Penjelasan: Jadi program ini buat ngolah data berat balita, yaitu nyari berat terkecil, terbesar, dan rata-ratanya. Program minta input jumlah balita, lalu minta input berat masing-masing balita satu-satu dan disimpan ke array. Fungsi hitungMinMax nyari berat terkecil dan terbesar dengan cara bandingin satu-satu semua data, sedangkan fungsi rerata ngitung rata-rata dengan cara jumlahin semua berat lalu dibagi jumlah balitanya. Hasilnya ditampilin dengan rapi lengkap dengan satuannya yaitu kg. ]
 
 
