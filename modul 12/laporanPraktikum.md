@@ -63,7 +63,7 @@ func main() {
 ### Output Unguided :
 
 ##### Output 
-![Screenshot Output Unguided 1_1](https://github.com/ericstwn/109082500197_Eric-Setiawan_T10/blob/main/modul%2010/output/output-soal1.png)
+![Screenshot Output Unguided 1_1](https://github.com/ericstwn/109082500197_Eric-Setiawan_T12/blob/main/modul%2012/output/output-soal1.png)
 [Penjelasan: Jadi program ini buat ngitung hasil pemilihan suara dari 20 calon. Program terus minta input nomor calon sampai diinput 0 sebagai tanda selesai. Setiap suara yang masuk dihitung, tapi hanya suara dengan nomor 1 sampai 20 yang dianggap sah, selain itu dianggap tidak sah. Fungsi hitungSuara ngitung berapa banyak suara yang diterima tiap calon. Hasilnya ditampilin total suara masuk, total suara sah, lalu jumlah suara tiap calon yang mendapat suara.]
 
 ### 2. [Soal]
@@ -144,7 +144,7 @@ func main() {
 ### Output Unguided :
 
 ##### Output 
-![Screenshot Output Unguided 1_2](https://github.com/ericstwn/109082500197_Eric-Setiawan_T10/blob/main/modul%2010/output/output-soal2.png)
+![Screenshot Output Unguided 1_2](https://github.com/ericstwn/109082500197_Eric-Setiawan_T12/blob/main/modul%2012/output/output-soal2.png)
 [Penjelasan: Jadi program ini buat ngitung hasil pemilihan ketua dan wakil ketua RT. Program terus minta input nomor calon sampai diinput 0 sebagai tanda selesai. Suara yang sah hanya nomor 1 sampai 20, selain itu tidak dihitung. Setelah semua suara masuk, program nyari siapa yang mendapat suara terbanyak sebagai ketua, dan suara terbanyak kedua sebagai wakil ketua, dengan cara bandingin perolehan suara semua calon satu-satu. Hasilnya ditampilin total suara masuk, total suara sah, nomor calon ketua RT, dan nomor calon wakil ketua RT.]
 
 ### 3. [Soal]
@@ -203,7 +203,7 @@ func posisi(n, k int) int {
 ### Output Unguided :
 
 ##### Output 
-![Screenshot Output Unguided 1_2](https://github.com/ericstwn/109082500197_Eric-Setiawan_T10/blob/main/modul%2010/output/output-soal3.png)
+![Screenshot Output Unguided 1_2](https://github.com/ericstwn/109082500197_Eric-Setiawan_T12/blob/main/modul%2012/output/output-soal3.png)
 [Penjelasan: Jadi program ini buat nyari posisi (indeks) suatu angka di dalam kumpulan data yang sudah berurutan. Di awal, program bakal minta input jumlah total data dan angka yang mau dicari, baru setelah itu kita masukin semua isi datanya satu per satu. Proses nyarinya pakai metode Binary Search, yaitu dengan cara langsung ngecek angka di posisi paling tengah; kalau angka yang dicari kekecilan atau kegedean, setengah datanya langsung dibuang dan sisanya dibelah dua lagi sampai ketemu. Hasil akhirnya bakal nampilin nomor posisi angka tersebut, atau tulisan "TIDAK ADA" kalau angkanya emang gak ketemu di dalam data.]
 
 
